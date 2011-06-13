@@ -262,7 +262,11 @@
      VK.Widgets.Like('vk_like');
     </script>
 
-   
+   <div id="vk_auth"></div>
+<script type="text/javascript">
+VK.Widgets.Auth("vk_auth", {width: "200px", authUrl: '/developers.php?o=-1&p=Auth'});
+</script>
+
     <div id="vk_comments"></div>
     <script type="text/javascript">
      VK.Widgets.Comments('vk_comments');
