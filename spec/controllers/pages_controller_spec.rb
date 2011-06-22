@@ -2,16 +2,9 @@ require 'spec_helper'
 
 describe PagesController do
 
-  describe "GET 'home'" do
+  describe "GET 'user'" do
     it "should be successful" do
-      get 'home'
-      response.should be_success
-    end
-  end
-
-  describe "GET 'contact'" do
-    it "should be successful" do
-      get 'contact'
+      get 'user'
       response.should be_success
     end
   end

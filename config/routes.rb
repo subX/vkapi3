@@ -1,7 +1,9 @@
 Vkapi3::Application.routes.draw do
+  get "pages/user"
+
   get "users/new"
 
-get "pages/user"
+
 
   get "pages/home"
 
