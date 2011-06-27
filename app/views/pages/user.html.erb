@@ -1,2 +1,14 @@
-<h1>Pages#user</h1>
+<h1>Pages#user and user '<%= @uri %>' and code = <%= @code %> and key=<%= @access_token %> ИТОГО <%= @response %></h1>
+<ul>
+  <% @users.each do |user| %>
+    <li>
+      <a><img src="<%= user.avatar %>" /></a> 
+       
+       <div><a><%= user.name %></a> <div>Я против!!!</div></div> 
+
+      
+      
+    </li>
+  <% end %>
+</ul>
 <p>Find me in app/views/pages/user.html.erb</p>
