@@ -1,5 +1,6 @@
 Vkapi3::Application.routes.draw do
-  get "pages/user"
+  
+  match '/user', :to => 'pages#user'
 
   get "users/new"
 
